@@ -1,0 +1,25 @@
+{
+  "frames": {
+    "initialFrames": ["vue2"],
+    "addableFrames": ["vue3", "less", "sass", "axios", "hfetch"]
+  },
+  "packages": {
+    "dependencies": {
+      "necessity": [],
+      "vue2": ["vue@2", "vue-router@3", "vuex@3"],
+      "vue3": ["vue@3", "vue-router@4", "vuex@4"],
+      "axios": [],
+      "hfetch": []
+    },
+    "devDependencies": {
+      "necessity": ["webpack", "webpack-cli", "babel-loader", "@babel/core", "@babel/plugin-transform-arrow-functions", "css-loader", 
+                    "postcss-loader", "postcss-preset-env", "url-loader", "html-webpack-plugin", "clean-webpack-plugin",
+                    "copy-webpack-plugin", "webpack-dev-server"],
+      "vue2": ["vue-loader@15", "vue-style-loader", "vue-template-compiler"],
+      "vue3": ["vue-loader@16", "vue-style-loader", "vue-template-compiler"],
+      "less": ["less", "less-loader"],
+      "sass": ["sass", "sass-loader"]
+    }
+  }
+}
+
